@@ -145,7 +145,7 @@ def loop(index,links,map,useproxies,rawproxies,region):
         if link in links:
             pass
         else:
-            if index != 10:
+            if index != 0:
                 if region.lower() == "uk" :
                     pid = link.split("/")[4].split(".html")[0]
                 if region.lower() == "us" or region.lower() == "ca":
